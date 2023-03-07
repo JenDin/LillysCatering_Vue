@@ -24,7 +24,7 @@
         <li
           class="my-3 uppercase transition duration-75 border-b-2 border-transparent hover:border-sky-200"
         >
-          <RouterLink to="/menu">Menu</RouterLink>
+          <RouterLink to="/menus">Menus</RouterLink>
         </li>
       </ul>
 
