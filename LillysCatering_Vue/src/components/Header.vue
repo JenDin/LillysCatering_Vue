@@ -3,10 +3,10 @@
   <header>
     <!-- Navbar -->
     <nav
-      class="navbar flex justify-between items-center py-2 px-4 min-h-[70px] bg-[#131515be] text-white"
+      class="navbar flex justify-between items-center py-2 px-4 min-h-[70px] bg-sky-100 text-black"
     >
       <div href="#">
-        <RouterLink to="/" class="text-2xl uppercase text-white">
+        <RouterLink to="/" class="text-2xl uppercase text-black">
           <p>Logo</p>
         </RouterLink>
       </div>
