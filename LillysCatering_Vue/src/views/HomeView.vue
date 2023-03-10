@@ -1,8 +1,12 @@
 <!-- HTML code -->
 <template>
   <div class="hero-image" :style="{ backgroundImage }">
-    <div class="md:h-[100%] flex justify-center items-center content-center">
-      <h1 class="bg-sky-100 p-6 text-6xl font-bold">Catering for all occasions.</h1>
+    <div
+      class="relative smabsolute top-96 md:top-0 md:h-[100%] flex justify-center items-center content-center"
+    >
+      <h1 class="bg-sky-100 text-center p-6 text-4xl md:text-6xl font-normal m-10">
+        Catering for all <span class="cursive--font relative left-1">occasions</span>.
+      </h1>
     </div>
     <h2 class="p-3 pl-5 absolute bottom-10 text-white">Lilly's Catering</h2>
     <p class="p-3 pl-5 absolute bottom-5 text-white">90017, Palermo</p>

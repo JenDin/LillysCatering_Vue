@@ -18,8 +18,11 @@ html {
 body {
   position: relative;
   min-height: 100vh;
-  background: #eee;
   display: flex;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cursive--font {
+  font-family: 'Petit Formal Script', cursive;
 }

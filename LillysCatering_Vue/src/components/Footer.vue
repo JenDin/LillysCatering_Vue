@@ -1,15 +1,15 @@
 <!-- HTML code -->
 <template>
-  <footer class="bg-[#131515] fixed bottom-0 w-full">
-    <div class="px-4 py-6 bg-[#131515] md:flex md:items-center md:justify-between">
-      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"
+  <footer class="fixed bottom-0 w-full">
+    <div class="px-4 py-6 bg-sky-100 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-black sm:text-center"
         >© 2023 <a href="https://flowbite.com/">Lilly's Catering</a>. All Rights Reserved.
       </span>
       <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
         <a
           href="https://www.facebook.com/"
           target="_blank"
-          class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+          class="text-black hover:text-gray-900 dark:hover:text-white"
         >
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -22,7 +22,7 @@
         <a
           href="https://www.instagram.com/"
           target="_blank"
-          class="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+          class="text-black hover:text-gray-900 dark:hover:text-white"
         >
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path

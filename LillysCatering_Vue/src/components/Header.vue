@@ -17,12 +17,12 @@
         :class="[{ active: isActive }]"
       >
         <li
-          class="my-3 uppercase transition duration-150 border-b-2 border-transparent hover:border-sky-200"
+          class="my-3 uppercase transition duration-150 border-b-2 border-transparent hover:border-[#457b9d]"
         >
           <RouterLink to="/">Home</RouterLink>
         </li>
         <li
-          class="my-3 uppercase transition duration-75 border-b-2 border-transparent hover:border-sky-200"
+          class="my-3 uppercase transition duration-75 border-b-2 border-transparent hover:border-[#457b9d]"
         >
           <RouterLink to="/menus">Menus</RouterLink>
         </li>
@@ -35,13 +35,13 @@
         :class="['hamburger', { active: isActive }]"
       >
         <span
-          class="bg-white transition ease-in-out delay-50 bar block w-7 h-0.5 rounded my-1.5"
+          class="bg-black transition ease-in-out delay-50 bar block w-7 h-0.5 rounded my-1.5"
         ></span>
         <span
-          class="bg-white transition ease-in-out delay-50 bar block w-7 h-0.5 rounded my-1.5"
+          class="bg-black transition ease-in-out delay-50 bar block w-7 h-0.5 rounded my-1.5"
         ></span>
         <span
-          class="bg-white transition ease-in-out delay-50 bar block w-7 h-0.5 rounded my-1.5"
+          class="bg-black transition ease-in-out delay-50 bar block w-7 h-0.5 rounded my-1.5"
         ></span>
       </div>
     </nav>
@@ -96,7 +96,7 @@ export default {
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    background: #131515be;
+    background: #e0f2fe;
   }
   .nav-item {
     margin: 16px 0;
