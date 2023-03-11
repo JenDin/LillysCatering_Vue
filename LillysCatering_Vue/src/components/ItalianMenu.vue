@@ -1,7 +1,7 @@
 <!-- HTML code -->
 <template>
-  <p v-if="dish.menuId === 3">{{ dish.title }}</p>
-  <p v-if="dish.menuId === 3" class="text-sm italic mb-3">{{ dish.ingredients }}</p>
+  <p v-if="dish.menuId === 4">{{ dish.title }}</p>
+  <p v-if="dish.menuId === 4" class="text-sm italic mb-3">{{ dish.ingredients }}</p>
 </template>
 
 <!-- JavaScript code -->
