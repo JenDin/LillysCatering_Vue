@@ -6,11 +6,7 @@
         >© 2023 <a href="https://flowbite.com/">Lilly's Catering</a>. All Rights Reserved.
       </span>
       <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
-        <a
-          href="https://www.facebook.com/"
-          target="_blank"
-          class="text-black hover:text-gray-900 dark:hover:text-white"
-        >
+        <a href="https://www.facebook.com/" target="_blank" class="text-black hover:text-[#457b9d]">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
               fill-rule="evenodd"
@@ -19,11 +15,7 @@
             />
           </svg>
         </a>
-        <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          class="text-black hover:text-gray-900 dark:hover:text-white"
-        >
+        <a href="https://www.instagram.com/" target="_blank" class="text-red hover:text-[#457b9d]">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
               fill-rule="evenodd"

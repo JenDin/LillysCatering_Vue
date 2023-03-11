@@ -7,7 +7,7 @@
     >
       <div href="#">
         <RouterLink to="/" class="text-2xl uppercase text-black">
-          <p>Logo</p>
+          <img class="w-48" src="../assets/PetitFormal.png" alt="Logo that read Lilly's catering" />
         </RouterLink>
       </div>
 
@@ -90,7 +90,7 @@ export default {
   .navMenu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 80px;
     gap: 0;
     flex-direction: column;
     width: 100%;
