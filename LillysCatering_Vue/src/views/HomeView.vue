@@ -19,7 +19,7 @@
 export default {
   data() {
     return {
-      backgroundImage: "url('src/assets/catering_bg.jpg')"
+      backgroundImage: "url('./catering_bg.jpg')"
     }
   }
 }

@@ -7,7 +7,7 @@
     >
       <div href="#">
         <RouterLink to="/" class="text-2xl uppercase text-black">
-          <img class="w-48" src="../assets/PetitFormal.png" alt="Logo that read Lilly's catering" />
+          <img class="w-48" src="../../logo.png" alt="Logo that read Lilly's catering" />
         </RouterLink>
       </div>
 

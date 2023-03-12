@@ -10,7 +10,7 @@
 
   <div class="m-6">
     <div
-      class="border-2 border-black mx-auto md:flex p-4 justify-center gap-6 xl:gap-2 max-w-5xl mb-40"
+      class="border-2 border-black mx-auto md:flex p-4 justify-center gap-6 xl:gap-2 max-w-5xl mb-10"
     >
       <div class="xl:w-1/2 mb-8 lg:mb-0">
         <h2 class="text-3xl font-bold mb-2">Mediterranean</h2>
@@ -32,6 +32,21 @@
           <p><span class="font-bold">Price:</span> ${{ italianPrice }}/person</p>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Photos -->
+  <div
+    class="container max-w-lg lg:max-w-4xl xl:max-w-6xl mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 mb-36 p-5"
+  >
+    <div class="w-full">
+      <img src="../../album_pic1.jpg" alt="image" />
+    </div>
+    <div class="w-full">
+      <img src="../../album_pic2.jpg" alt="image" />
+    </div>
+    <div class="w-full">
+      <img src="../../album_pic3.jpg" alt="image" />
     </div>
   </div>
 
