@@ -26,6 +26,11 @@
         >
           <RouterLink to="/menus">Menus</RouterLink>
         </li>
+        <li
+          class="my-3 uppercase transition duration-75 border-b-2 border-transparent hover:border-[#457b9d]"
+        >
+          <RouterLink to="/order">Order catering</RouterLink>
+        </li>
       </ul>
 
       <!-- Hamburger menu -->
