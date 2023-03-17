@@ -96,7 +96,7 @@
             <Datepicker
               class="border border-black bg-white mb-4"
               v-model="date"
-              :min-date="new Date()"
+              :min-date="minDate"
               :enable-time-picker="false"
             />
 
@@ -117,6 +117,8 @@
 import Button from '../components/Button.vue'
 import Footer from '../components/Footer.vue'
 
+const date = new Date()
+
 export default {
   components: {
     Button,
@@ -135,7 +137,8 @@ export default {
       addressErrorMsg: false,
       dateErrorMsg: false,
       isSent: false,
-      successMsg: false
+      successMsg: false,
+      minDate: `${date.getFullYear()}-${date.getMonth() + 2}`
     }
   },
   computed: {
