@@ -10,7 +10,7 @@
 
   <div class="m-6">
     <div
-      class="border-2 border-black mx-auto md:flex p-4 justify-center gap-6 xl:gap-2 max-w-5xl mb-10"
+      class="border-2 border-black mx-auto md:flex p-4 justify-center gap-6 xl:gap-2 max-w-5xl mb-5"
     >
       <div class="xl:w-1/2 mb-8 lg:mb-0">
         <h2 class="text-3xl font-bold mb-2">Mediterranean</h2>
